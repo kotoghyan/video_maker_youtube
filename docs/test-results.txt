@@ -1,0 +1,29 @@
+test_ambiguous_folder (test_safety.SafetyTests.test_ambiguous_folder) ... ok
+test_cli_success (test_safety.SafetyTests.test_cli_success) ... ok
+test_cloud_placeholder_not_read (test_safety.SafetyTests.test_cloud_placeholder_not_read) ... ok
+test_dry_run_never_writes_or_networks (test_safety.SafetyTests.test_dry_run_never_writes_or_networks) ... ok
+test_duplicate_json_keys (test_safety.SafetyTests.test_duplicate_json_keys) ... ok
+test_empty_track (test_safety.SafetyTests.test_empty_track) ... ok
+test_extension_does_not_prove_validity (test_safety.SafetyTests.test_extension_does_not_prove_validity) ... ok
+test_extra_metadata_fields (test_safety.SafetyTests.test_extra_metadata_fields) ... ok
+test_invalid_ids (test_safety.SafetyTests.test_invalid_ids) ... ok
+test_invalid_json_safe_error (test_safety.SafetyTests.test_invalid_json_safe_error) ... ok
+test_junction_escape (test_safety.SafetyTests.test_junction_escape) ... ok
+test_missing_archive (test_safety.SafetyTests.test_missing_archive) ... ok
+test_missing_json (test_safety.SafetyTests.test_missing_json) ... ok
+test_missing_optional_folders (test_safety.SafetyTests.test_missing_optional_folders) ... ok
+test_missing_track (test_safety.SafetyTests.test_missing_track) ... ok
+test_output_traversal (test_safety.SafetyTests.test_output_traversal) ... ok
+test_overlap (test_safety.SafetyTests.test_overlap) ... ok
+test_relative_config (test_safety.SafetyTests.test_relative_config) ... ok
+test_track_order (test_safety.SafetyTests.test_track_order) ... ok
+test_track_path_traversal (test_safety.SafetyTests.test_track_path_traversal) ... ok
+test_unknown_config_fields (test_safety.SafetyTests.test_unknown_config_fields) ... ok
+test_unknown_id_and_no_prefix_collision (test_safety.SafetyTests.test_unknown_id_and_no_prefix_collision) ... ok
+test_write_archive_forbidden (test_safety.SafetyTests.test_write_archive_forbidden) ... ok
+test_wrong_json_id (test_safety.SafetyTests.test_wrong_json_id) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.572s
+
+OK

@@ -1,0 +1,41 @@
+{
+  "mode": "doctor",
+  "os": "Windows-11-10.0.26200-SP0",
+  "tools": {
+    "python": {
+      "path": "C:\\Users\\gjano\\OneDrive\\Desktop\\Vinyl_Codex\\.venv\\Scripts\\python.exe",
+      "version": "3.12.10"
+    },
+    "ffmpeg": {
+      "path": null,
+      "version": null
+    },
+    "ffprobe": {
+      "path": null,
+      "version": null
+    },
+    "git": {
+      "path": "C:\\Program Files\\Git\\cmd\\git.EXE",
+      "version": "git version 2.52.0.windows.1"
+    }
+  },
+  "paths": {
+    "archive": {
+      "path": "C:\\Users\\gjano\\OneDrive\\Desktop\\Karo",
+      "exists": true,
+      "writable": "not_tested",
+      "readable": true,
+      "free_bytes": 106574241792
+    },
+    "work": {
+      "path": "C:\\Users\\gjano\\OneDrive\\Desktop\\Vinyl_Social_Media",
+      "exists": true,
+      "writable": true,
+      "readable": true,
+      "free_bytes": 106574241792
+    }
+  },
+  "archive_write_probe": false,
+  "onedrive_sync_state": "not_verified",
+  "uploads": 0
+}
