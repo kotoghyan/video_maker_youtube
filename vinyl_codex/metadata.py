@@ -26,8 +26,12 @@ def unique_keys(pairs):
     return result
 
 
-def read_metadata(record, selected_id):
-    path = local_file(record / "METADATA" / (selected_id + "_metadata.json"), record)
+def read_metadata(record, selected_id, metadata_name=None):
+    # Альтернативное имя разрешается только явным аргументом; схема неизменна.
+    name = metadata_name or (selected_id + "_metadata.json")
+    if name not in (selected_id + "_metadata.json", "metadata.json"):
+        raise SafeError("Недопустимое имя музейного JSON.")
+    path = local_file(record / "METADATA" / name, record)
     if path.stat().st_size > 8 * 1024 * 1024:
         raise SafeError("JSON превышает безопасный лимит чтения 8 MiB.")
     try:
